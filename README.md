@@ -1,6 +1,6 @@
 # process-shared-csp
 CSP files for the paper "Verifying Correctness of Shared Channels in a Cooperatively Scheduled Process-Oriented Language"
-
+<pre>
 channel-spec.csp: CSP specification for the general N_TO_M_GENERIC_CHANNEL specification.
 channel.csp: CSP for the back-bone of a channel.
 monitor.csp: CSP for a monitor.
@@ -14,3 +14,4 @@ variables.csp: CSP for the state processses.
 2-to-1.csp: assertions for testing many-to-one channels (two writers, one reader)
 3-to-1.csp: assertions for testing one-to-many channels (three writers, one reader)
 2-to-2.csp: assertions for testing many-to-many channels (two writers, two readers)
+</pre>
